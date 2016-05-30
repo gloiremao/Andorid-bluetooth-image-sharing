@@ -8,8 +8,16 @@
         "source": "D:\\myBluetoothChat\\Application\\src\\main\\res\\menu\\main.xml"
     },
     {
+        "merged": "D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
         "source": "D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
+    },
+    {
+        "merged": "D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
+        "source": "D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
     },
     {
         "merged": "D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
