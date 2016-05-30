@@ -492,16 +492,16 @@ public class BluetoothChatService {
                     filename = buffer.toString();
                     Log.e(TAG, filename);
                     // Todo check file name
-                    FileOutputStream fos = mContext.openFileOutput(filename, Context.MODE_PRIVATE);
+                    /*FileOutputStream fos = mContext.openFileOutput(filename, Context.MODE_PRIVATE);
                     buffer = new byte[filesize];
                     bytes= mmInStream.read(buffer);
-                    fos.write(buffer);
+                    fos.write(buffer);*/
                     /*for(int count = 0;count < filesize;count += bytes){
                         bytes= mmInStream.read(buffer);
                         fos.write(bytes);
                         Log.e(TAG, String.valueOf(count));
                     }*/
-                    fos.close();
+                    //fos.close();
 
                     //Todo store info to DB
 
@@ -538,10 +538,10 @@ public class BluetoothChatService {
                     mmOutStream.write(buffer);
                 }
                 Log.e(TAG, filename);
-                int count = 0;
+                /*int count = 0;
                 buffer = new byte[(int)size];
                 fis.read(buffer, 0, buffer.length);
-                mmOutStream.write(buffer, 0, buffer.length);
+                mmOutStream.write(buffer, 0, buffer.length);*/
                 /*while ((count = fis.read(buffer, 0, buffer.length)) != -1) {
                     Log.e(TAG, "Sending data");
                     mmOutStream.write(buffer, 0, count); // Now writes the correct amount of bytes
@@ -557,6 +557,7 @@ public class BluetoothChatService {
                 //        .sendToTarget();
             } catch (IOException e) {
                 Log.e(TAG, "Exception during write", e.fillInStackTrace());
+                Log.e(TAG, e.getMessage());
             }
         }
 
