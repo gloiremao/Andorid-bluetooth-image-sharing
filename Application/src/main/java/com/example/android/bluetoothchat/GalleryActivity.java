@@ -20,12 +20,15 @@ public class GalleryActivity extends Activity {
 
 
     private GridView gridview;
+
+    private Integer[] imageList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery);
         gridview = (GridView) findViewById(R.id.gridView);
-        gridview.setAdapter(new ImageAdapter(this, getImageList()));
+        imageList = getImageList();
+        gridview.setAdapter(new ImageAdapter(this, imageList));
 
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
@@ -43,7 +46,12 @@ public class GalleryActivity extends Activity {
                 }
                 fragmentTransaction.addToBackStack(null);
 
+                // Create bundle to send data
+                Bundle bundle = new Bundle();
+                bundle.putInt("img_id",imageList[position]);
+
                 DialogFragment detailImageView = new DetailImageViewFragment();
+                detailImageView.setArguments(bundle);
                 detailImageView.show(fragmentTransaction,"detailImagevView");
             }
         });

@@ -14,9 +14,10 @@ public class DetailImageViewFragment extends DialogFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        int imageId = getArguments().getInt("img_id");
         View v = inflater.inflate(R.layout.fragment_detail_image_view, container, false);
         ImageView imageView = (ImageView) v.findViewById(R.id.detail_imageview);
-        imageView.setImageResource(R.drawable.image_1);
+        imageView.setImageResource(imageId);
         return v;
     }
 
