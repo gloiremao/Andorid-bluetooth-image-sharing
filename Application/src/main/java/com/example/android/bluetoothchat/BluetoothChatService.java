@@ -21,6 +21,8 @@ import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothServerSocket;
 import android.bluetooth.BluetoothSocket;
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -72,6 +74,7 @@ public class BluetoothChatService {
     public static final int STATE_CONNECTED = 3;  // now connected to a remote device
 
     private Context mContext;
+
     /**
      * Constructor. Prepares a new BluetoothChat session.
      *
@@ -487,7 +490,7 @@ public class BluetoothChatService {
                     bytes = mmInStream.read(buffer);
 
                     String tmp = new String();
-                    Log.d(TAG, "buffer:"+tmp +" received:"+String.valueOf(bytes));
+                    Log.d(TAG, "buffer:" + tmp + " received:" + String.valueOf(bytes));
                     filesize = Integer.parseInt(tmp);
                     Log.e(TAG, String.valueOf(filesize));
                     //read filename
@@ -528,14 +531,14 @@ public class BluetoothChatService {
                 String filename = f.getName();
                 byte[] buffer = new byte[1024];
                 long size = f.length();
-                String filesize = ""+size;
-                if(size > 0){
+                String filesize = "" + size;
+                if (size > 0) {
                     //send filesize
                     buffer = filesize.getBytes();
                     mmOutStream.write(buffer);
                 }
                 Log.e(TAG, filesize);
-                if(filename.length() < 1024){
+                if (filename.length() < 1024) {
                     buffer = filename.getBytes();
                     //send filename
                     mmOutStream.write(buffer);
@@ -573,17 +576,17 @@ public class BluetoothChatService {
         }
     }
 
-    //onReceived Image
-    public String saveFile(String filename){
+    //Todo onReceived Image
+    public String saveFile(String filename) {
         String mURL = null;
 
         try {
 
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
-        return  mURL;
+        return mURL;
     }
 
 }
