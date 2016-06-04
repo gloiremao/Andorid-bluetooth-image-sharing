@@ -17,6 +17,7 @@
 
 package com.example.android.bluetoothchat;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
@@ -86,6 +87,10 @@ public class MainActivity extends SampleActivityBase {
                     output.setDisplayedChild(0);
                 }
                 supportInvalidateOptionsMenu();
+                return true;
+            case R.id.btn_show_gallery:
+                Intent intent = new Intent(this, GalleryActivity.class);
+                startActivity(intent);
                 return true;
         }
         return super.onOptionsItemSelected(item);

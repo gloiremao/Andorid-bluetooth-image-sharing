@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+        "outputFile": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 131
                 },
                 "from": {
-                    "file": "D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
+                    "file": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "outputFile": "D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+        "outputFile": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -38,7 +38,7 @@
                     "endOffset": 131
                 },
                 "from": {
-                    "file": "D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
+                    "file": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "outputFile": "D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+        "outputFile": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -64,7 +64,33 @@
                     "endOffset": 131
                 },
                 "from": {
-                    "file": "D:\\myBluetoothChat\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
+                    "file": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 677,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 753
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/mao/Desktop/Android-Hw2/Application/build/intermediates/res/merged/debug/values-v21/values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 3,
+                    "endColumn": 12,
+                    "endOffset": 131
+                },
+                "from": {
+                    "file": "/Users/mao/Desktop/Android-Hw2/Application/src/main/res/values-v21/base-template-styles.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,

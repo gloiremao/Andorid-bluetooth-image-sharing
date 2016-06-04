@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
+        "outputFile": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 200
                 },
                 "from": {
-                    "file": "D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values-v23\\values-v23.xml",
+                    "file": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "outputFile": "D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
+        "outputFile": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
         "map": [
             {
                 "to": {
@@ -38,7 +38,7 @@
                     "endOffset": 200
                 },
                 "from": {
-                    "file": "D:\\myBluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values-v23\\values-v23.xml",
+                    "file": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "outputFile": "D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
+        "outputFile": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
         "map": [
             {
                 "to": {
@@ -64,7 +64,33 @@
                     "endOffset": 200
                 },
                 "from": {
-                    "file": "D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values-v23\\values-v23.xml",
+                    "file": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values-v23\\values-v23.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 200
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/mao/Desktop/Android-Hw2/Application/build/intermediates/res/merged/debug/values-v23/values-v23.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 200
+                },
+                "from": {
+                    "file": "/Users/mao/Desktop/Android-Hw2/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values-v23/values-v23.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

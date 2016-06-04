@@ -50,6 +50,9 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/select_device"
             android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity
+            android:name="com.example.android.bluetoothchat.GalleryActivity"
+            android:label="@string/title_activity_gallery" />
     </application>
 
 </manifest>

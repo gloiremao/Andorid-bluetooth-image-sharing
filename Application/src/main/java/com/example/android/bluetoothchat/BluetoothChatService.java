@@ -485,11 +485,14 @@ public class BluetoothChatService {
 
                     // read filesize
                     bytes = mmInStream.read(buffer);
-                    filesize = Integer.getInteger(buffer.toString());
+
+                    String tmp = new String();
+                    Log.d(TAG, "buffer:"+tmp +" received:"+String.valueOf(bytes));
+                    filesize = Integer.parseInt(tmp);
                     Log.e(TAG, String.valueOf(filesize));
                     //read filename
                     bytes = mmInStream.read(buffer);
-                    filename = buffer.toString();
+                    filename = new String(buffer);
                     Log.e(TAG, filename);
                     // Todo check file name
                     /*FileOutputStream fos = mContext.openFileOutput(filename, Context.MODE_PRIVATE);
