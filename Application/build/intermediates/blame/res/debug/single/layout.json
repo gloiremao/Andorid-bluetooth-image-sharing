@@ -1,90 +1,118 @@
 [
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\layout\\message.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bluetooth_chat.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\layout\\fragment_bluetooth_chat.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bluetooth_chat.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\src\\main\\res\\layout\\fragment_bluetooth_chat.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\layout\\device_name.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/Application/build/intermediates/res/merged/debug/layout/fragment_detail_image_view.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/Application/src/main/res/layout/fragment_detail_image_view.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\layout\\message.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/Application/build/intermediates/res/merged/debug/layout/message.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/Application/src/main/res/layout/message.xml"
+        "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/Application/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/Application/src/main/res/layout/activity_main.xml"
+        "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
+        "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/Application/build/intermediates/res/merged/debug/layout/device_name.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/Application/src/main/res/layout/device_name.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\layout\\device_name.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\src\\main\\res\\layout\\device_name.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\layout\\device_name.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/Application/build/intermediates/res/merged/debug/layout/activity_device_list.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/Application/src/main/res/layout/activity_device_list.xml"
+        "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
+        "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\layout\\message.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/Application/build/intermediates/res/merged/debug/layout/fragment_bluetooth_chat.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/Application/src/main/res/layout/fragment_bluetooth_chat.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_image_view.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\layout\\fragment_detail_image_view.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\layout\\message.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bluetooth_chat.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\layout\\fragment_bluetooth_chat.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\layout\\device_name.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gallery.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\layout\\activity_gallery.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\layout\\device_name.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\src\\main\\res\\layout\\message.xml"
+        "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\layout\\device_name.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bluetooth_chat.xml",
+        "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\layout\\fragment_bluetooth_chat.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bluetooth_chat.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\layout\\fragment_bluetooth_chat.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\layout\\message.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bluetooth_chat.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\layout\\fragment_bluetooth_chat.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bluetooth_chat.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\layout\\fragment_bluetooth_chat.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/mao/Desktop/Android-Hw2/Application/build/intermediates/res/merged/debug/layout/activity_gallery.xml",
-        "source": "/Users/mao/Desktop/Android-Hw2/Application/src/main/res/layout/activity_gallery.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_image_view.xml",
+        "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\layout\\fragment_detail_image_view.xml"
+    },
+    {
+        "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gallery.xml",
+        "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\layout\\activity_gallery.xml"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bluetooth_chat.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\layout\\fragment_bluetooth_chat.xml"
     }
 ]

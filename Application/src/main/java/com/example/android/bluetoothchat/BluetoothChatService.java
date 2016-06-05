@@ -476,7 +476,7 @@ public class BluetoothChatService {
 
         public void run() {
             Log.i(TAG, "BEGIN mConnectedThread");
-            byte[] buffer = new byte[1024];
+            byte[] buffer;
             int bytes;
             int filesize = 0;
             String filename = "";
@@ -490,6 +490,9 @@ public class BluetoothChatService {
                     // Read from the InputStream
 
                     // read filesize
+                    int bufferSize = mmInStream.available();
+                    if (bufferSize <= 0) continue;
+                    buffer = new byte[bufferSize];
                     bytes = mmInStream.read(buffer);
 
                     String tmp = new String();
