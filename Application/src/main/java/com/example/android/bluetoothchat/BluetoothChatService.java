@@ -20,6 +20,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothServerSocket;
 import android.bluetooth.BluetoothSocket;
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -74,6 +75,7 @@ public class BluetoothChatService {
     public static final int STATE_CONNECTED = 3;  // now connected to a remote device
 
     private Context mContext;
+    private SQLiteHelper database = null;
 
     /**
      * Constructor. Prepares a new BluetoothChat session.
@@ -86,6 +88,7 @@ public class BluetoothChatService {
         mState = STATE_NONE;
         mHandler = handler;
         this.mContext = context;
+        this.database = new SQLiteHelper(this.mContext);
     }
 
     /**
@@ -588,5 +591,17 @@ public class BluetoothChatService {
 
         return mURL;
     }
+
+    public void insert(String givenUri, int width, int height){
+        SQLiteDatabase db = database.getWritableDatabase();
+        String size = width+"x"+height;
+        ContentValues values = new ContentValues();
+        values.put(database.col_size,size);
+        values.put(database.col_Uri,givenUri);
+        values.put(database.col_lastUpdate,"datetime('now')");
+        db.insert(database.TABLE_NAME,null,values);
+    }
+
+
 
 }

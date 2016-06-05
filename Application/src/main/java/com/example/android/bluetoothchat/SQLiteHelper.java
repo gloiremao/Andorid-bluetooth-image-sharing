@@ -9,12 +9,28 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class SQLiteHelper extends SQLiteOpenHelper{
 
-    public SQLiteHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
+    public static final String DATABASE_NAME = "mygallery.db";
+    public static final String TABLE_NAME = "myImageTable";
+    public static final int VERSION = 1;
+    private static SQLiteDatabase database;
+
+    public static String col_size = "size";
+    public static String col_Uri = "Uri";
+    public static String col_lastUpdate = "lastUpdate";
+
+
+    public SQLiteHelper(Context context) {
+        super(context, DATABASE_NAME, null, VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+        String SQL = "CREATE TABLE IF NOT EXISTS " + TABLE_NAME + "(" +
+                "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                col_size + " TEXT, " +
+                col_Uri + " TEXT, " +
+                col_lastUpdate + " TEXT)";
+        db.execSQL(SQL);
 
     }
 
