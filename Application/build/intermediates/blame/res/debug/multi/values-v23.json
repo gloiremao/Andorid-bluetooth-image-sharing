@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
+        "outputFile": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 200
                 },
                 "from": {
-                    "file": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values-v23\\values-v23.xml",
+                    "file": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "outputFile": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
+        "outputFile": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
         "map": [
             {
                 "to": {
@@ -64,7 +64,7 @@
                     "endOffset": 200
                 },
                 "from": {
-                    "file": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values-v23\\values-v23.xml",
+                    "file": "D:\\Android-Hw2\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -91,6 +91,32 @@
                 },
                 "from": {
                     "file": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values-v23\\values-v23.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 200
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\values-v23\\values-v23.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 200
+                },
+                "from": {
+                    "file": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

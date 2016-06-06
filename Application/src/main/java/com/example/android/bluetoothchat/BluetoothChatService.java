@@ -500,6 +500,9 @@ public class BluetoothChatService {
                     filesize = Integer.parseInt(tmp);
                     Log.e(TAG, String.valueOf(filesize));
                     //read filename
+                    bufferSize = mmInStream.available();
+                    if (bufferSize <= 0) continue;
+                    buffer = new byte[bufferSize];
                     bytes = mmInStream.read(buffer);
                     filename = new String(buffer);
                     Log.e(TAG, filename);

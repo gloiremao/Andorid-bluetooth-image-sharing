@@ -1,63 +1,87 @@
 [
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tile.9.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_device_access_bluetooth_searching.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_device_access_bluetooth_searching.png"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_1.jpeg",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_1.jpeg"
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_4.jpg",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_4.jpg"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image.png"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_4.jpg",
         "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_4.jpg"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tile.9.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image.png",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image.png"
     },
     {
         "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
         "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tile.9.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_device_access_bluetooth_searching.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_device_access_bluetooth_searching.png"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_device_access_bluetooth_searching.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_device_access_bluetooth_searching.png"
-    },
-    {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tile.9.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
-    },
-    {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_2.jpeg",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_2.jpeg"
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_2.jpeg",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_2.jpeg"
     },
     {
         "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_5.jpeg",
         "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_5.jpeg"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_3.jpg",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_3.jpg"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_6.jpg",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_6.jpg"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_device_access_bluetooth_searching.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_device_access_bluetooth_searching.png"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_1.jpeg",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_1.jpeg"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\image.png"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tile.9.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tile.9.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image.png"
+    },
+    {
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_1.jpeg",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_1.jpeg"
     },
     {
         "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_5.jpeg",
         "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_5.jpeg"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\image.png"
     },
     {
         "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image.png",
@@ -68,16 +92,8 @@
         "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_2.jpeg"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_device_access_bluetooth_searching.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_device_access_bluetooth_searching.png"
-    },
-    {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\image.png"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tile.9.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
     },
     {
         "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_4.jpg",
@@ -88,36 +104,44 @@
         "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_6.jpg"
     },
     {
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_3.jpg",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_3.jpg"
+    },
+    {
         "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
         "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image.png"
-    },
-    {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\image.png"
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tile.9.png",
         "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
     },
     {
-        "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_3.jpg",
-        "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_3.jpg"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_2.jpeg",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_2.jpeg"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_device_access_bluetooth_searching.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_device_access_bluetooth_searching.png"
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_6.jpg",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_6.jpg"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_6.jpg",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_6.jpg"
+    },
+    {
+        "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_3.jpg",
+        "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_3.jpg"
     },
     {
         "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_device_access_bluetooth_searching.png",
         "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_device_access_bluetooth_searching.png"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image.png",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image.png"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tile.9.png",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
     },
     {
         "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_device_access_bluetooth_searching.png",
@@ -126,5 +150,21 @@
     {
         "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_1.jpeg",
         "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_1.jpeg"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_3.jpg",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_3.jpg"
+    },
+    {
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_device_access_bluetooth_searching.png",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_device_access_bluetooth_searching.png"
+    },
+    {
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tile.9.png",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_5.jpeg",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\drawable-hdpi\\image_5.jpeg"
     }
 ]

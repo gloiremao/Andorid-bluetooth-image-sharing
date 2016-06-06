@@ -1,15 +1,23 @@
 [
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\menu\\main.xml"
-    },
-    {
         "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\menu\\main.xml"
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
+    },
+    {
+        "merged": "D:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Android-Hw2\\Application\\src\\main\\res\\menu\\main.xml"
     },
     {
         "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
@@ -20,20 +28,20 @@
         "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
     },
     {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
-    },
-    {
-        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
-        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\Users\\mao\\Desktop\\myBluetoothChat\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
-    },
-    {
         "merged": "E:\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "E:\\Android-Hw2\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
+        "source": "E:\\Users\\mao\\Desktop\\Android-Hw2\\D:\\myBluetoothChat\\Android-Hw2\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
     },
     {
         "merged": "E:\\Users\\mao\\Desktop\\Android-Hw2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
