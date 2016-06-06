@@ -5,6 +5,9 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.DisplayMetrics;
@@ -16,18 +19,28 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 public class GalleryActivity extends Activity {
 
 
     private GridView gridview;
-
-    private Integer[] imageList;
+    private SQLiteHelper database;
+    private ArrayList<image> img_list;
+    private String[] imageList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery);
+        database = new SQLiteHelper(this);
         gridview = (GridView) findViewById(R.id.gridView);
-        imageList = getImageList();
+        getImageList();
+        imageList = new String[img_list.size()];
+        int i = 0;
+        for (image img:img_list) {
+            imageList[i] = img.Uri;
+            i++;
+        }
         gridview.setAdapter(new ImageAdapter(this, imageList));
 
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -48,7 +61,10 @@ public class GalleryActivity extends Activity {
 
                 // Create bundle to send data
                 Bundle bundle = new Bundle();
-                bundle.putInt("img_id",imageList[position]);
+                bundle.putString("img_Uri", img_list.get(position).Uri);
+                bundle.putString("img_Size", img_list.get(position).size);
+                bundle.putString("img_Id", img_list.get(position)._id);
+                bundle.putString("img_Time",img_list.get(position).time);
 
                 DialogFragment detailImageView = new DetailImageViewFragment();
                 detailImageView.setArguments(bundle);
@@ -57,23 +73,34 @@ public class GalleryActivity extends Activity {
         });
     }
 
-    private Integer[] getImageList(){
+    private void getImageList(){
         // Todo read from database
-        Integer[] images = {
-                R.drawable.image_1,
-                R.drawable.image_2,
-                R.drawable.image_3,
-                R.drawable.image_4,
-                R.drawable.image_5,
-                R.drawable.image_6,
-        };
-        return images;
+        SQLiteDatabase db = database.getReadableDatabase();
+        String query = "SELECT  * FROM " + database.TABLE_NAME;
+
+        Cursor cursor = db.rawQuery(query, null);
+        img_list = new ArrayList<image>();
+        image img = null;
+
+        if (cursor.moveToFirst()) {
+            do {
+                img = new image();
+                img._id = cursor.getString(0);
+                img.size = cursor.getString(1);
+                img.Uri = cursor.getString(2);
+                img.time = cursor.getString(3);
+
+                // Add book to books
+                img_list.add(img);
+            } while (cursor.moveToNext());
+        }
+
     }
 
     public class ImageAdapter extends BaseAdapter {
         private Context mContext;
 
-        private Integer[] mThumbIds;
+        private String[] mThumbIds;
 
         public int getCount() {
             return mThumbIds.length;
@@ -88,7 +115,7 @@ public class GalleryActivity extends Activity {
         }
 
 
-        public ImageAdapter(Context c, Integer[] mThumbIds) {
+        public ImageAdapter(Context c, String[] mThumbIds) {
             this.mContext = c;
             this.mThumbIds = mThumbIds;
         }
@@ -106,7 +133,7 @@ public class GalleryActivity extends Activity {
                 imageView = (ImageView) convertView;
             }
 
-            imageView.setImageResource(mThumbIds[position]);
+            imageView.setImageURI(Uri.parse(Uri.decode(mThumbIds[position])));
             return imageView;
         }
 

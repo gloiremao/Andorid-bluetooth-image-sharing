@@ -24,6 +24,8 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -31,12 +33,19 @@ import android.os.Message;
 
 import com.example.android.common.logger.Log;
 
+import java.io.BufferedInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutput;
+import java.io.ObjectOutputStream;
 import java.io.OutputStream;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.UUID;
 
 /**
@@ -476,59 +485,53 @@ public class BluetoothChatService {
 
         public void run() {
             Log.i(TAG, "BEGIN mConnectedThread");
-            byte[] buffer;
+            byte[] buffer = new byte[1024];
             int bytes;
             int filesize = 0;
             String filename = "";
             String URL = "";
             String imageSize = "";
-
-
+            Log.d(TAG, "===========================================" + String.valueOf(mState));
+            int bufferSize = 1024;
             // Keep listening to the InputStream while connected
-            while (mState == STATE_CONNECTED) {
-                try {
-                    // Read from the InputStream
+            while (true) {
+                if (mState != STATE_CONNECTED) continue;
+                    try {
+                        ObjectInputStream fis = new ObjectInputStream(mmInStream);
+                        image imgObject = (image)fis.readObject();
+                        Log.d(TAG, "fileName" + String.valueOf(imgObject.fileName));
+                        Log.d(TAG, "fileSize" + String.valueOf(imgObject.fileSize));
+                        Uri givenUri = saveFile(imgObject.fileName,imgObject.data);
+                        if (givenUri != null){
+                            Log.d(TAG, "givenUri : " + String.valueOf(givenUri));
+                        }else {
+                            continue;
+                        }
+                        BitmapFactory.Options options = new BitmapFactory.Options();
+                        options.inPreferredConfig = Bitmap.Config.ARGB_8888;
+                        Bitmap bitmap = BitmapFactory.decodeFile(givenUri.getPath(), options);
+                        int img_width = bitmap.getWidth();
+                        int img_height = bitmap.getHeight();
+                        Log.d(TAG, "Size : " + String.valueOf(img_width) + "x" + String.valueOf(img_height));
+                        //Todo store info to DB
+                        insert(givenUri.toString(),img_width,img_height);
 
-                    // read filesize
-                    int bufferSize = mmInStream.available();
-                    if (bufferSize <= 0) continue;
-                    buffer = new byte[bufferSize];
-                    bytes = mmInStream.read(buffer);
-
-                    String tmp = new String();
-                    Log.d(TAG, "buffer:" + tmp + " received:" + String.valueOf(bytes));
-                    filesize = Integer.parseInt(tmp);
-                    Log.e(TAG, String.valueOf(filesize));
-                    //read filename
-                    bufferSize = mmInStream.available();
-                    if (bufferSize <= 0) continue;
-                    buffer = new byte[bufferSize];
-                    bytes = mmInStream.read(buffer);
-                    filename = new String(buffer);
-                    Log.e(TAG, filename);
-                    // Todo check file name
-                    /*FileOutputStream fos = mContext.openFileOutput(filename, Context.MODE_PRIVATE);
-                    buffer = new byte[filesize];
-                    bytes= mmInStream.read(buffer);
-                    fos.write(buffer);*/
-                    /*for(int count = 0;count < filesize;count += bytes){
-                        bytes= mmInStream.read(buffer);
-                        fos.write(bytes);
-                        Log.e(TAG, String.valueOf(count));
-                    }*/
-                    //fos.close();
-
-                    //Todo store info to DB
-
-                    // Send the obtained bytes to the UI Activity
-                    mHandler.obtainMessage(Constants.MESSAGE_READ, bytes, -1, buffer).sendToTarget();
-                } catch (IOException e) {
-                    Log.e(TAG, "disconnected", e);
-                    connectionLost();
-                    // Start the service over to restart listening mode
-                    BluetoothChatService.this.start();
-                    break;
-                }
+                        // Send the obtained bytes to the UI Activity
+                        mHandler.obtainMessage(Constants.MESSAGE_READ,givenUri.toString().length(),-1,givenUri.toString().getBytes()).sendToTarget();
+                    } catch (IOException e) {
+                        Log.e(TAG, "disconnected", e);
+                        connectionLost();
+                        // Start the service over to restart listening mode
+                        BluetoothChatService.this.start();
+                        break;
+                    }
+                    catch (Exception e) {
+                        Log.e(TAG, "disconnected", e);
+                        connectionLost();
+                        // Start the service over to restart listening mode
+                        BluetoothChatService.this.start();
+                        break;
+                    }
             }
         }
 
@@ -536,40 +539,38 @@ public class BluetoothChatService {
         public void write(String selectedUri) {
             try {
                 File f = new File(selectedUri);
-                InputStream fis = new FileInputStream(f);
                 String filename = f.getName();
-                byte[] buffer = new byte[1024];
-                long size = f.length();
-                String filesize = "" + size;
-                if (size > 0) {
-                    //send filesize
-                    buffer = filesize.getBytes();
-                    mmOutStream.write(buffer);
-                }
-                Log.e(TAG, filesize);
-                if (filename.length() < 1024) {
-                    buffer = filename.getBytes();
-                    //send filename
-                    mmOutStream.write(buffer);
-                }
-                Log.e(TAG, filename);
-                /*int count = 0;
-                buffer = new byte[(int)size];
-                fis.read(buffer, 0, buffer.length);
-                mmOutStream.write(buffer, 0, buffer.length);*/
-                /*while ((count = fis.read(buffer, 0, buffer.length)) != -1) {
-                    Log.e(TAG, "Sending data");
-                    mmOutStream.write(buffer, 0, count); // Now writes the correct amount of bytes
+                int size = (int)f.length();
+                byte[] buffer = new byte[size];
+                FileInputStream fis = new FileInputStream(f);
+                BufferedInputStream bis = new BufferedInputStream(fis);
+                bis.read(buffer, 0, buffer.length);
+                image sendObject = new image(filename, size, buffer);
 
-                }*/
-                fis.close();
+                ByteArrayOutputStream bos = new ByteArrayOutputStream();
+                ObjectOutput out = null;
+                try {
+                    out = new ObjectOutputStream(bos);
+                    out.writeObject(sendObject);
+                    byte[] yourBytes = bos.toByteArray();
+                    mmOutStream.write(yourBytes);
+                } finally {
+                    try {
+                        if (out != null) {
+                            out.close();
+                        }
+                    } catch (IOException ex) {
+                        // ignore close exception
+                    }
+                    try {
+                        bos.close();
+                    } catch (IOException ex) {
+                        // ignore close exception
+                    }
+                }
+
                 Log.e(TAG, "Send data");
                 //mmOutStream.write(buffer);
-
-
-                // Share the sent message back to the UI Activity
-                //mHandler.obtainMessage(Constants.MESSAGE_WRITE, -1, -1, buffer)
-                //        .sendToTarget();
             } catch (IOException e) {
                 Log.e(TAG, "Exception during write", e.fillInStackTrace());
                 Log.e(TAG, e.getMessage());
@@ -586,25 +587,34 @@ public class BluetoothChatService {
     }
 
     //Todo onReceived Image
-    public String saveFile(String filename) {
-        String mURL = null;
+    public Uri saveFile(String filename, byte[] img_data) {
+        Uri mUri = null;
 
         try {
+
+            File file = new File(mContext.getFilesDir(), filename);
+            mUri = Uri.fromFile(file);
+            FileOutputStream fo = new FileOutputStream(file);
+            fo.write(img_data);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        return mURL;
+        return mUri;
     }
 
     public void insert(String givenUri, int width, int height){
         SQLiteDatabase db = database.getWritableDatabase();
         String size = width+"x"+height;
+        Calendar c = Calendar.getInstance();
+        SimpleDateFormat df3 = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss a");
+        String formattedDate3 = df3.format(c.getTime());
+
         ContentValues values = new ContentValues();
         values.put(database.col_size,size);
         values.put(database.col_Uri,givenUri);
-        values.put(database.col_lastUpdate,"datetime('now')");
+        values.put(database.col_lastUpdate,formattedDate3);
         db.insert(database.TABLE_NAME,null,values);
     }
 

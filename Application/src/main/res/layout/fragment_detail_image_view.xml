@@ -29,6 +29,12 @@
         android:id="@+id/imageUri"
         android:text="@string/default_image_Uri" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageTime"
+        android:text="@string/default_image_Time" />
+
 
 
 </LinearLayout>

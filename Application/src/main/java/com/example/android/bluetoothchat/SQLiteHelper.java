@@ -36,6 +36,7 @@ public class SQLiteHelper extends SQLiteOpenHelper{
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
+        String SQL = "DROP TABLE " + TABLE_NAME;
+        db.execSQL(SQL);
     }
 }

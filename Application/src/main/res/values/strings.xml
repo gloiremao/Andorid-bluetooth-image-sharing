@@ -27,6 +27,7 @@
     <string name="default_image_id">Image Id:</string>
     <string name="default_image_size">Image Size:</string>
     <string name="default_image_Uri">Image Uri:</string>
+    <string name="default_image_Time">Image Time:</string>
 
 
     <!--  DeviceListActivity -->
